@@ -115,6 +115,12 @@ img { max-width: 100%; display: block; }
 }
 
 .logo { display: flex; align-items: center; gap: 10px; }
+.logo-img {
+  height: 56px;
+  width: auto;
+  display: block;
+  mix-blend-mode: multiply;
+}
 .logo-mark {
   display: inline-flex;
   align-items: center;
