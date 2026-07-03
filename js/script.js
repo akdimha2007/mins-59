@@ -84,16 +84,6 @@ dotsContainer.addEventListener('click', () => {
   autoplay = setInterval(() => goToSlide((current + 1) % slides.length), 5000);
 });
 
-// ===== Donation button placeholder =====
-const donateBtn = document.getElementById('donateBtn');
-const topAlert = document.getElementById('top-alert');
-donateBtn.addEventListener('click', (e) => {
-  e.preventDefault();
-  topAlert.textContent = "La plateforme de don sécurisée sera bientôt disponible ici.";
-  topAlert.classList.add('show');
-  setTimeout(() => topAlert.classList.remove('show'), 3500);
-});
-
 // ===== Contact form =====
 const contactForm = document.getElementById('contactForm');
 const formSuccess = document.getElementById('formSuccess');
